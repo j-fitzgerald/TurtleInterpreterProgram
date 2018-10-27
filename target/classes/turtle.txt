@@ -1,0 +1,10 @@
+#dist = 5
+move #dist
+turn 90
+penDown
+move #dist
+#dist = 10
+turn 90
+penUp
+move #dist
+turn 90

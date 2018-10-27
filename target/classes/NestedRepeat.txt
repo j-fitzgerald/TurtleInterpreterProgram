@@ -1,0 +1,9 @@
+#times = 3
+repeat #times
+move 5
+repeat 2
+move 5
+end
+turn 90
+end
+move 5

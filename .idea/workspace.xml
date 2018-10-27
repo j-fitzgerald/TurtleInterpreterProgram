@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="080626d1-e22a-4a94-8d10-8bf673d7baf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/ListExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/NonTerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/PenDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/PenUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Repeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Turn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Commands/VariableHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/ProgramBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parsing/FileParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TurtleProgram/TurtleProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Visitors/AbstractTurtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Visitors/DistanceVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Visitors/MementoVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Visitors/Turtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Visitors/TurtleVisitorInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Visitors/Visitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/NestedRepeat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/ClassTest/DistanceVisitorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/ClassTest/MementoVisitorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/ClassTest/TurtleTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/AssignmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/MoveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/PenUpDownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/ProgramBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/RepeatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/TurnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoodTests/TurtleProgramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/ClassTests/TestDistanceVisitorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/ClassTests/TestMementoVisitorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/ClassTests/TestTurtleTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestAssignmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestMoveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestPenUpDownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestProgramBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestRepeatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestTurnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestTurtleProgramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/End.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/NonTerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/PenUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/Repeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/Turn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HoldPackages/Commands/VariableHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/ClassTest/DistanceVisitorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/ClassTest/MementoVisitorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/ClassTest/TurtleTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/AssignmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/MoveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/PenUpDownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/ProgramBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/RepeatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/TurnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/GoodTests/TurtleProgramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/ClassTests/TestDistanceVisitorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/ClassTests/TestMementoVisitorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/ClassTests/TestTurtleTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestAssignmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestMoveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestPenUpDownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestProgramBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestRepeatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestTurnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Tests/TestTheTests/TestTurtleProgramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testbed/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testbed/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testbed/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testbed/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testbed/src/driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testbed/testbed.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/Assignment2_Maven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/Commands/AddCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/Commands/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/Commands/CommandProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/Commands/CommandResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/Commands/PollCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/Commands/RemoveCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/Commands/ReprioritizeCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/PriorityQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/java/jsf/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/RealTests/BasicMethodsTest/PriorityQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/RealTests/BasicMethodsTest/StudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/RealTests/CommandTests/CommandTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/RealTests/PriorityQueueTest/EmptyQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/RealTests/PriorityQueueTest/LargeQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/RealTests/PriorityQueueTest/SetupTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/RealTests/PriorityQueueTest/SingleItemQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/TestTheTests/TestCommandTests/TestCommandTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/TestTheTests/TestPriorityQueueTest/TestEmptyQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/TestTheTests/TestPriorityQueueTest/TestLargeQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/TestTheTests/TestPriorityQueueTest/TestSetupTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/java/TestTheTests/TestPriorityQueueTest/TestSingleItemQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/Commands/AddCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/Commands/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/Commands/CommandProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/Commands/CommandResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/Commands/PollCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/Commands/RemoveCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/Commands/ReprioritizeCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/PriorityQueue$Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/classes/jsf/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/RealTests/BasicMethodsTest/PriorityQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/RealTests/BasicMethodsTest/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/RealTests/CommandTests/CommandTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/RealTests/PriorityQueueTest/EmptyQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/RealTests/PriorityQueueTest/LargeQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/RealTests/PriorityQueueTest/SetupTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/RealTests/PriorityQueueTest/SingleItemQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/TestTheTests/TestCommandTests/TestCommandTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/TestTheTests/TestPriorityQueueTest/TestEmptyQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/TestTheTests/TestPriorityQueueTest/TestLargeQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/TestTheTests/TestPriorityQueueTest/TestSetupTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/target/test-classes/TestTheTests/TestPriorityQueueTest/TestSingleItemQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/main/java/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/main/java/Interpreter/Interpreter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/main/java/Interpreter/PenUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/main/java/Interpreter/TurtleCommands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/main/java/Turtle/AbstractTurtle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/main/java/Turtle/Turtle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/Assignment2_Maven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/Commands/AddCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/Commands/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/Commands/CommandProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/Commands/CommandResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/Commands/PollCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/Commands/RemoveCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/Commands/ReprioritizeCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/PriorityQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/main/java/jsf/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/RealTests/BasicMethodsTest/PriorityQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/RealTests/BasicMethodsTest/StudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/RealTests/CommandTests/CommandTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/RealTests/PriorityQueueTest/EmptyQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/RealTests/PriorityQueueTest/LargeQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/RealTests/PriorityQueueTest/SetupTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/RealTests/PriorityQueueTest/SingleItemQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/TestTheTests/TestCommandTests/TestCommandTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/TestTheTests/TestPriorityQueueTest/TestEmptyQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/TestTheTests/TestPriorityQueueTest/TestLargeQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/TestTheTests/TestPriorityQueueTest/TestSetupTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/src/test/java/TestTheTests/TestPriorityQueueTest/TestSingleItemQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/Commands/AddCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/Commands/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/Commands/CommandProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/Commands/CommandResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/Commands/PollCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/Commands/RemoveCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/Commands/ReprioritizeCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/PriorityQueue$Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/classes/jsf/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/RealTests/BasicMethodsTest/PriorityQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/RealTests/BasicMethodsTest/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/RealTests/CommandTests/CommandTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/RealTests/PriorityQueueTest/EmptyQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/RealTests/PriorityQueueTest/LargeQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/RealTests/PriorityQueueTest/SetupTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/RealTests/PriorityQueueTest/SingleItemQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/TestTheTests/TestCommandTests/TestCommandTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/TestTheTests/TestPriorityQueueTest/TestEmptyQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/TestTheTests/TestPriorityQueueTest/TestLargeQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/TestTheTests/TestPriorityQueueTest/TestSetupTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue_With_CommandPatterns/target/test-classes/TestTheTests/TestPriorityQueueTest/TestSingleItemQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/Assignment3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/src/main/java/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/src/main/java/Interpreter/Interpreter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/src/main/java/Interpreter/PenUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/src/main/java/Interpreter/TurtleCommands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/src/main/java/Turtle/AbstractTurtle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TurtleProgram_Interpreter_Memento_Visitor/src/main/java/Turtle/Turtle.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1079358666">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="AST-Layout" value="1" />
+          <entry key="RepeatFile" value="1" />
+          <entry key="java" value="358" />
+          <entry key="turtle" value="1" />
+          <entry key="txt" value="20" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="358" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="AST-Layout" value="724" />
+          <entry key="RepeatFile" value="87" />
+          <entry key="dummy" value="136" />
+          <entry key="java" value="33040" />
+          <entry key="turtle" value="61" />
+          <entry key="txt" value="217" />
+          <entry key="xml" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="33040" />
+          <entry key="PLAIN_TEXT" value="1225" />
+          <entry key="XML" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/MementoVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1448#1449#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/Move.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/TurtleVisitorInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/Turtle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/ListExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/NonTerminalExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GoodTests/TurtleProgramTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TurtleProgram/TurtleProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ProgramBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="74" column="10" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../junit5-jupiter-starter-gradle" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/files/turtle.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/RepeatFile.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/NestedRepeat.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/RecursiveDescentParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Program.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/TerminalExpressionBackup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/NonTerminalExpressionBackup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Commands/End.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/End.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/TurtleVisitorInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/TurtleControllerVisitor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/MoveTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/AssignmentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestAssignmentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/DistanceVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/NestedRepeat.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestProgramTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/PenUpDownTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoodTests/ClassTest/MementoVisitorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestPenUpDownTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/ClassTests/TestMementoVisitorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/PenUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/PenDown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Turn.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoodTests/ProgramTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Assignment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Move.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parsing/FileParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Program/Program.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Repeat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Program.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestRepeatTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/RepeatTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/MalformedExpressionException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestProgramBuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/ProgramBuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/malformed.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/MalformedEndException.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/malformedEnd.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/GoodTests/TurtleProgramTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/ListExpression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/NonTerminalExpression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/TerminalExpression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/ProgramBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Commands/Variable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TurtleProgram/TurtleProgram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Driver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/MementoVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/Turtle.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Parsing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TurtleProgram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GoodTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GoodTests" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GoodTests" type="462c0819:PsiDirectoryNode" />
+              <item name="InterpreterTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTheTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTheTests" type="462c0819:PsiDirectoryNode" />
+              <item name="TestInterpreterTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jf_assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jf_assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="System.out.println(turtle);&#9;null&#9;null&#10;println(turtle)&#9;null&#9;null" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539889051884" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment2/PriorityQueue_With_CommandPatterns" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.291954" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\src\test\java" />
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\src\main\java\Interpreter" />
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\src\main\java\Interpreter\Two" />
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\src\test\java\TestTheTests\TestInterpreterTests" />
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\src\test\java\TestTheTests\ClassTests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TestTheTests" />
+      <recent name="Interpreter.Commands" />
+      <recent name="Parsing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\target\Tests" />
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\target\HoldPackages\BustedCommands" />
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\src\main\resources" />
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\src\main\resources\files" />
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\jf_assignment3\target\HoldPackages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Driver">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="jf_assignment3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodTests in jf_assignment3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jf_assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GoodTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GoodTests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jf_assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GoodTests.InterpreterTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GoodTests.InterpreterTests" />
+      <option name="MAIN_CLASS_NAME" value="GoodTests.InterpreterTests.ProgramBuilderTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTheTests in jf_assignment3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jf_assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestTheTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestTheTests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurtleProgramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jf_assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GoodTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GoodTests" />
+      <option name="MAIN_CLASS_NAME" value="GoodTests.TurtleProgramTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.GoodTests in jf_assignment3" />
+      <item itemvalue="Application.Driver" />
+      <item itemvalue="JUnit.TestTheTests in jf_assignment3" />
+      <item itemvalue="JUnit.ProgramBuilderTest" />
+      <item itemvalue="JUnit.TurtleProgramTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="JUnit.TestTheTests in jf_assignment3" />
+        <item itemvalue="JUnit.GoodTests in jf_assignment3" />
+        <item itemvalue="JUnit.TurtleProgramTest" />
+        <item itemvalue="JUnit.ProgramBuilderTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="080626d1-e22a-4a94-8d10-8bf673d7baf2" name="Default Changelist" comment="" />
+      <created>1539559859296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539559859296</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestTheTests_in_jf_assignment3 - 2018.10.17 at 13h 13m 31s.xml">
+      <configuration name="TestTheTests in jf_assignment3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProgramBuilderTest - 2018.10.17 at 14h 01m 54s.xml">
+      <configuration name="ProgramBuilderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProgramBuilderTest - 2018.10.17 at 14h 02m 05s.xml">
+      <configuration name="ProgramBuilderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProgramBuilderTest - 2018.10.17 at 14h 03m 10s.xml">
+      <configuration name="ProgramBuilderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTheTests_in_jf_assignment3 - 2018.10.17 at 14h 05m 37s.xml">
+      <configuration name="TestTheTests in jf_assignment3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodTests_in_jf_assignment3 - 2018.10.17 at 14h 05m 47s.xml">
+      <configuration name="GoodTests in jf_assignment3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodTests_in_jf_assignment3 - 2018.10.17 at 14h 08m 47s.xml">
+      <configuration name="GoodTests in jf_assignment3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TurtleProgramTest - 2018.10.17 at 14h 18m 24s.xml">
+      <configuration name="TurtleProgramTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodTests_in_jf_assignment3 - 2018.10.17 at 14h 24m 44s.xml">
+      <configuration name="GoodTests in jf_assignment3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTheTests_in_jf_assignment3 - 2018.10.17 at 14h 24m 50s.xml">
+      <configuration name="TestTheTests in jf_assignment3" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26639676" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291815" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/TurtleControllerVisitor.java" />
+    <entry file="file://$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/MoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestAssignmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/AssignmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/RepeatFile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/NestedRepeat.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/TestTheTests/TestTurtleProgramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/PenUpDownTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestPenUpDownTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/TestTheTests/ClassTests/TestMementoVisitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/GoodTests/ClassTest/DistanceVisitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/RepeatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/GoodTests/ClassTest/MementoVisitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/GoodTests/TurtleProgramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/End.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/PenDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/PenUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/VariableHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parsing/FileParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/Turn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestProgramBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/GoodTests/InterpreterTests/ProgramBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Tests/TestTheTests/TestInterpreterTests/TestRepeatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoodTests/ClassTest/TurtleTester.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestRepeatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/RepeatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/Assignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/MalformedExpressionException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/turtle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestInterpreterTests/TestProgramBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="57" column="5" selection-start-line="29" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoodTests/InterpreterTests/ProgramBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/MalformedEndException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/malformed.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/malformedEnd.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/Repeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/TerminalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/DistanceVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/Variable.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/ListExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/NonTerminalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoodTests/TurtleProgramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Commands/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/TurtleVisitorInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TurtleProgram/TurtleProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ProgramBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="74" column="10" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/MementoVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/Turtle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jf_assignment3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.291954" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
